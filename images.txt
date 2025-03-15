@@ -1,6 +1,20 @@
 nginx
+centos:latest
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
+cassandra:2.1
+redis:6.0.5
+oaisoftwarealliance/oai-hss:latest
+oaisoftwarealliance/magma-mme:latest
+oaisoftwarealliance/oai-spgwc:latest
+oaisoftwarealliance/oai-spgwu-tiny:latest
+mysql:8.0
+oaisoftwarealliance/oai-amf:v2.0.0
+oaisoftwarealliance/oai-smf:v2.0.0
+oaisoftwarealliance/oai-upf:v2.0.0
+oaisoftwarealliance/trf-gen-cn5g:focal
+oaisoftwarealliance/oai-gnb:develop
+oaisoftwarealliance/oai-nr-ue:develop
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
